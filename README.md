@@ -1,2 +1,3 @@
 # CursoEmVideo_pt2
- Curso Orientação a Objetos JAVA 
+
+Atividades do curso POO JAVA pelo professor Gustavo Guanabara
