@@ -1,6 +1,6 @@
 package aula11;
 
-public class Bolsista extends Aluno{
+public final class Bolsista extends Aluno{
 	private double bolsa;
 	
 	public Bolsista(String nome, int idade, char sexo) {
@@ -16,13 +16,13 @@ public class Bolsista extends Aluno{
 	}
 	
 	// Métodos
-	public void renovaBolsa() {
+	public void renovarBolsa() {
 		this.pagarMensalidade();
 		System.out.println("\nBolsa renovada com sucesso!\n");
 	}
 	
 	@Override
 	public void pagarMensalidade() {
-		System.out.println("\nMensalidade paga com sucesso!\n");
+		System.out.println("\nBolsa de 100%\n");
 	}
 }

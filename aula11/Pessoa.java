@@ -32,7 +32,7 @@ public abstract class Pessoa {
 	}
 	
 	// Métodos
-	public void fazAniversario() {
+	public final void fazAniversario() {
 		this.setIdade(this.getIdade() + 1);
 	}
 	
