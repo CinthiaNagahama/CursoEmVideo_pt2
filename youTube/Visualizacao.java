@@ -1,5 +1,6 @@
 package youTube;
 
+// Se relaciona com ambas as classes Espectador e Video sem estender qualquer uma delas
 public class Visualizacao {
 	private Video video;
 	private Espectador espec;

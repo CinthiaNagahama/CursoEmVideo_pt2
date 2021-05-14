@@ -1,5 +1,6 @@
 package youTube;
 
+// Classe abstrata que pode ser utilizada para dar origem a diversas classes filhas refentes à Pessoas
 public abstract class Pessoa {
 	protected String nome;
 	protected int idade;

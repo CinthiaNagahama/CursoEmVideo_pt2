@@ -1,5 +1,6 @@
 package youTube;
 
+// Todo Espectador é uma Pessoa, logo ele estende a classe Pessoa e herda as características de sua superclasse
 public class Espectador extends Pessoa{
 	private String login;
 	private int totalAssistido;
@@ -24,7 +25,7 @@ public class Espectador extends Pessoa{
 		this.totalAssistido = d;
 	}
 	
-	// Métodos sobrescritos
+	// Métodos herdados da superclasse podem ser reescritos (polimorfismo)
 	@Override
 	protected void ganharEXP() {
 		// TODO Auto-generated method stub

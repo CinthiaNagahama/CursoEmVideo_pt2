@@ -1,5 +1,6 @@
 package youTube;
 
+// A Classe vídeo implementa a classe AcoesVideo
 public class Video implements AcoesVideo{
 	private String titulo;
 	private int avalicacao;
@@ -55,7 +56,7 @@ public class Video implements AcoesVideo{
 		this.reproduzindo = reproduzindo;
 	}
 	
-	// Métodos Sobrescritos
+	// Métodos da interface implementada podem ser reescritos para realizarem uma ação da forma desejada (polimorfismo)
 	@Override
 	public void play() {
 		if(!this.isReproduzindo()) this.setReproduzindo(true);
